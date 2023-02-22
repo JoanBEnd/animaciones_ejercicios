@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuad{
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    /*transform-origin: right top;*/
+    border-radius: 15px;
+   animation: girar 0.50s infinite ease;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle{
+    background-color: rgb(187, 25, 219);
+    width: 20px;
+    height: 20px;
+    /*transform-origin: right top;*/
+    border-radius: 50%; 
+    
+}
+
+.trans-ori{
+    background-color: rgb(88, 90, 218);
+    width: 150px;
+    height: 100px;
+    transform-origin: right top;
+    border-radius: 15px; 
+}
+ 
+.trans-ori:hover{
+    transform: rotate(90deg);
+}  
+
+@keyframes girar {
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(135deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}

@@ -1,0 +1,16 @@
+a:link {
+    color: red;
+    }
+
+.parrafo p:not(.saludos){
+    color:rgb(180, 143, 216);
+}
+
+    a:visited{
+        color: blue;
+    }
+
+
+    .container div:nth-child(2){
+        color: red;
+    }

@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 97vh;
+}
+
+ 
+
+  .card-effect {
+    height: 340px;
+    width: 250px; 
+    position: relative;
+    transition: all 2s linear;
+    transform-style: preserve-3d; 
+    
+     
+}
+
+.front-effect,
+.back-effect{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front-effect{
+    background: linear-gradient(#08aeea, #2af508) ;
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.back-effect{
+    background: linear-gradient(#f8da61, #ff5acd) ;
+    z-index: 1;
+    transform: rotateX(180deg); 
+}
+
+.contenedor:hover .card-effect{
+    transform: rotateX(180deg);
+}
+.contenedor{
+    perspective: 1000px;
+}
+/**************************************************************************/
+
+.card-effect-vertical{
+    height: 350px;
+    width: 294px;
+    position: relative;
+    transition: all 5s linear;
+    transform-style: preserve-3d; 
+}
+
+ .contenedor-vertical{
+    perspective: 5000px;
+
+ }
+
+ .front-effect-vertical,
+ .back-effect-vertical
+ {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute; 
+ }
+
+ 
+ .front-effect-vertical{
+    background: linear-gradient(#2af508, #ff5acd);
+    z-index: 2;
+    backface-visibility: hidden;
+ }
+ 
+
+ .back-effect-vertical{
+    background: linear-gradient(#08aeea, #2af508, #f8da61);
+    transform: rotateY(180deg);
+    
+ }
+
+ .contenedor-vertical:hover .card-effect-vertical{
+    transform: rotateY(180deg)
+ }

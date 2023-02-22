@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #86560d;
+    perspective: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perspectiva{
+    width: 100px;
+    height: 150px;
+    border: 3px solid #d66113;
+    background: #86560d;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg);
+}

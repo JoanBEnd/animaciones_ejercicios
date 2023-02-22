@@ -1,0 +1,25 @@
+.shadow{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(73, 199, 42);
+    border-radius: 50%; 
+}
+
+.circle:hover {
+    transform: translate(0px, -20px);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}

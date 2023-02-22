@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+.shadow{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+}
+
+.scale{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(73, 199, 42);
+    border-radius: 50%; 
+}
+
+.scale:hover{
+    transform: scale(2.2, 1);
+    transition:3s;
+}
+
+
+.skew{
+    width: 150px;
+    height: 150px;
+    background: rgb(73, 199, 42);
+    border-radius: 15%;  
+}
+
+
+.skew:hover{
+    transform: skewY(35deg);
+    transition:3s;
+}
+
+
+.rotate{
+    width: 150px;
+    height: 150px;
+    background: rgba(100, 160, 85, 0.301);
+    border-radius: 15%; 
+}
+
+
+.rotate:hover{
+    transform: rotate(75deg);
+    transition:3s;
+}
