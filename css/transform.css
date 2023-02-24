@@ -21,7 +21,7 @@ body{
 }
 
 .scale:hover{
-    transform: scale(2.2, 1);
+    transform: scale(2,0.5);
     transition:3s;
 }
 
@@ -35,7 +35,7 @@ body{
 
 
 .skew:hover{
-    transform: skewY(35deg);
+    transform: skewY(15deg);
     transition:3s;
 }
 

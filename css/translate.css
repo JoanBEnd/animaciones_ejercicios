@@ -1,20 +1,11 @@
 .shadow{
-    width: 150px;
-    height: 150px;
-    background: red;
-    border-radius: 50%;
-}
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
 
-.circle{
-   
-    width: 150px;
-    height: 150px;
-    background: rgb(73, 199, 42);
-    border-radius: 50%; 
-}
-
-.circle:hover {
-    transform: translate(0px, -50px);
 }
 
 body{
@@ -22,4 +13,47 @@ body{
     align-items: center;
     justify-content: center;
     height: 97vh;
+}
+
+
+.circle{
+   
+    width: 150px;
+    height: 150px;
+    background: rgb(73, 199, 42);
+    border-radius: 50%;  
+}
+
+
+.circle:hover{
+    transform: translate(0px, 100px);
+
+}
+ 
+
+
+.circle-l{
+    
+    width: 150px;
+    height: 150px;
+    background: rgb(135, 226, 112);
+    border-radius: 50%;  
+}
+
+.circle-l:hover{
+    transform: translate(0px, -100px);
+
+}
+ 
+
+.circle-m{
+    width: 150px;
+    height: 150px;
+    background: rgb(42, 194, 199);
+    border-radius: 50%;   
+}
+
+.circle-m:hover{
+    transform: translate(0px, 100px);
+
 }
